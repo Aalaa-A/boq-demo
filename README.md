@@ -4,7 +4,7 @@ A Python based tool for comparing updated Bill of Quantities against original to
 
 ## Problem 
 
-In construction and design, BoQs can be hundreds of pages long with thousands of rows. Updates made to the files based on client feedback can often result in inconsistencies in the files which become hard to detect and lead to pricing, quoting, quantity and item mismatches.
+In construction and design, BoQs can be hundreds of pages long with thousands of rows. Updates made to the files based on client feedback or design changes can often result in inconsistencies in the files which become hard to detect manually, leading to pricing, quoting quantity and item mismatches.
 
 ## Solution 
 
