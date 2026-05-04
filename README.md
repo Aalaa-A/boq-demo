@@ -1,4 +1,33 @@
-# BoQ example 
+# Bill of Quantities (BoQ) Discrepancy Detector
 
-Comparing entry values in an updated excel file to values in the original excel file using simple logic and returning a report of the differences between the two files. Highlighting what was changed, removed, or added. 
+A Python based tool for comparing updated Bill of Quantities against original to highlight discrepancies 
+
+## Problem 
+
+In construction and design, BoQs can be hundreds of pages long with thousands of rows. Updates made to the files based on client feedback can often result in inconsistencies in the files which become hard to detect and lead to pricing, quoting, quantity and item mismatches.
+
+## Solution 
+
+A simple tool that compares two excel files and identitfies 
+
+- changed quantities
+- added items
+- removed items
+- item/code discrepancies
+- pricing discrepancies
+
+### Input 
+
+- Original BoQ excel file
+- Updated BoQ excel file
+
+### Output 
+
+- Discrepancy Report in CSV form
+
+
+#### Tech Stack
+- Python
+- Pandas
+- OpenPyXL
 
